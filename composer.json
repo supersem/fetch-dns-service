@@ -1,0 +1,24 @@
+{
+    "name": "supersem/fetch-dns-service",
+    "description": "The library which get all DNS records for specified domain name.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Supersem\\FetchDnsService\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Supersem\\FetchDnsService\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^10.10"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.1"
+    }
+
+}
